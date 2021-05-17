@@ -1,0 +1,34 @@
+.infoCardHeadline {
+  font-family: serif;
+  font-size: 2.25rem;
+  font-weight: normal;
+  color: black;
+  border: 2px solid black;
+  padding: 24px;
+}
+.infoCardContainer {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0;
+}
+.infoCardCallActionContainer :global(.vtex-button) {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(199, 141, 141);
+  border: transparent;
+}
+
+.infoCardCallActionContainer :global(.vtex-button):hover {
+  color: white;
+  background-color: black;
+  border: transparent;
+}
+
+.infoCardContainer--vintage {
+  background-color: #EDCFD1
+}
+
+.imageElement--cover {
+    object-fit: cover;
+  }
+  
